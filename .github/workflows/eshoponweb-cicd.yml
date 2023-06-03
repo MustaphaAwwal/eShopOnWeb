@@ -1,12 +1,12 @@
 name: eShopOnWeb Build and Test
 
-#Trriggers (uncomment line below to use it)
+#Triggers (uncomment line below to use it)
 on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: cloud-shell-storage-westeurope
-  LOCATION: westeurope
+  RESOURCE-GROUP: rg-az400-eshoponweb-Awwal
+  LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 63350a75-6987-45fd-8539-c5c9f66e7a27
   WEBAPP-NAME: az400-webapp-awwal
